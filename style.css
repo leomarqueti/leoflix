@@ -67,11 +67,13 @@ body {
     width: 23%;
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
+    border: 1px solid transparent;
   }
   
   #listaFilmes img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    border: 1px solid white;
   }
   
   
@@ -82,11 +84,13 @@ body {
     width: 23%;
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
+    border: 1px solid transparent;
   }
   
   #listaFilmes2 img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    border: 1px solid white;
   }
   
   #listaFilmes3 img {
@@ -96,11 +100,13 @@ body {
     width: 23%;
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
+    border: 1px solid transparent;
   }
   
   #listaFilmes3 img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    border: 1px solid white;
   }
   
   
@@ -152,11 +158,11 @@ body {
 
   .usuarios {
     background-color: #262525;
-    width: 48%;
-    height: 276px;
+    width: 68%;
+    height: 412px;
     position: absolute;
-    top: 394px;
-    left: 478px;
+    top: 309px;
+    left: 265px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #00000057;
   }
@@ -165,23 +171,36 @@ body {
     border-radius: 100%;
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
-    width: 15%;
+    width: 20%;
     margin: auto;
     margin-top: 60px;
     margin-left: 27px;
     margin-right: 7px;
     box-shadow: 5px 5px 10px #00000070;
+    border: 1px solid transparent;
   }
 
   .usuarios-fotos:hover {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.1);  
+    border: 1px solid white;
   }
 
   .nomes {
     color: white;
     display: flex;
     justify-content: space-around;
-    margin-left: 109px;
-    margin-right: 80px;
+    margin-left: 51px;
+    margin-right: 26px;
+    font-weight: unset;
+    font-size: 23px;
+}
+
+
+.inicio-titulo {
+  width: 100%;
+  color: #fff;
+  font-size: 3.5vw;
+  font-weight: unset;
+  margin-top: 205px;
 }
